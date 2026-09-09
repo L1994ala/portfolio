@@ -33,7 +33,7 @@ const PROJECTS = [
     description: "Ajoute ici l'un de tes flyers, affiches ou cartes de visite.",
     tags: ["Print", "Flyer"],
     image: null,
-    expectedFile: "assets/img/print-1.jpg",
+    expectedFile: "assets/img/Banner poster Harmonya.png",
   },
   {
     title: "Carrousel réseaux sociaux — à ajouter",
