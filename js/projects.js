@@ -41,7 +41,7 @@ const PROJECTS = [
     description: "Ajoute ici un de tes carrousels Instagram/LinkedIn ou une publicité Meta.",
     tags: ["Réseaux sociaux", "Carrousel", "Meta Ads"],
     image: null,
-    expectedFile: "assets/img/social-1.jpg",
+    expectedFile: "assets/img/Carousel d'image Excellia CI.png",
   },
   {
     title: "Storytelling vidéo — Eufonie / SKIILLZ",
