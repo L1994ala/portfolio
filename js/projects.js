@@ -32,16 +32,14 @@ const PROJECTS = [
     category: "Print",
     description: "Ajoute ici l'un de tes flyers, affiches ou cartes de visite.",
     tags: ["Print", "Flyer"],
-    image: null,
-    expectedFile: "assets/img/Banner poster Harmonya.png",
+    image: "assets/img/Banner poster Harmonya.png",
   },
   {
     title: "Carrousel réseaux sociaux — à ajouter",
     category: "Digital",
     description: "Ajoute ici un de tes carrousels Instagram/LinkedIn ou une publicité Meta.",
     tags: ["Réseaux sociaux", "Carrousel", "Meta Ads"],
-    image: null,
-    expectedFile: "assets/img/Carousel d'image Excellia CI.png",
+    image: "assets/img/Carousel d'image Excellia CI.png",
   },
   {
     title: "Storytelling vidéo — Eufonie / SKIILLZ",
