@@ -18,7 +18,7 @@ const PROJECTS = [
     category: "Identité de marque",
     description: "Conception du logo, du monogramme et des déclinaisons couleur pour un projet immobilier haut de gamme.",
     tags: ["Logo", "Branding", "Illustrator"],
-    image: "assets/img/harmonya.jpg",
+    image: "assets/img/harmonya logo.jpg",
   },
   {
     title: "Excellia Properties — Company Profile",
