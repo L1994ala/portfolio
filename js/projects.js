@@ -25,7 +25,7 @@ const PROJECTS = [
     category: "Print & mise en page",
     description: "Brochure institutionnelle : structuration de contenu, mise en page et déclinaison de la charte sur plusieurs supports.",
     tags: ["Print", "Mise en page", "InDesign"],
-    image: "assets/img/excellia.jpg",
+    image: "assets/img/excellia brand Identity.jpg",
   },
   {
     title: "Flyer / Affiche — à ajouter",
