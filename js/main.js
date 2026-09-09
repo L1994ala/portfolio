@@ -13,7 +13,17 @@
       img.loading = "lazy";
       const wrap = document.createElement("div");
       wrap.className = "frame-media";
-      wrap.appendChild(img);
+      if (project.link) {
+        const link = document.createElement("a");
+        link.href = project.link;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.setAttribute("aria-label", "Voir la vidéo : " + project.title);
+        link.appendChild(img);
+        wrap.appendChild(link);
+      } else {
+        wrap.appendChild(img);
+      }
       return wrap;
     }
     const wrap = document.createElement("div");
