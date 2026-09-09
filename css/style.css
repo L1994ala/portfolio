@@ -222,30 +222,31 @@ img { max-width: 100%; display: block; }
 
 /* Contact */
 .contact { max-width: var(--maxw); margin: 0 auto; padding: clamp(70px, 10vw, 120px) var(--gutter) 90px; }
-.contact-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; align-items: flex-end; border-top: 1px solid var(--line); padding-top: 30px; }
-.contact-line { margin: 0 0 8px; font-size: 1.1rem; }
-.contact-line a { text-decoration: none; border-bottom: 1px solid var(--brass); }
-.contact-line a:hover { color: var(--brass-bright); }
-.contact-note { color: var(--muted); max-width: 32ch; margin: 0; }
-
-.site-footer {
-  text-align: center;
-  padding: 22px var(--gutter) 30px;
-  color: var(--muted);
-  font-size: 0.8rem;
+.contact-content {
   border-top: 1px solid var(--line);
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 28px;
 }
-.footer-socials {
+.contact-note {
+  color: var(--muted);
+  max-width: none;
+  margin: 0;
+  font-size: 1rem;
+}
+.contact-ctas {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 14px;
-  margin-bottom: 14px;
 }
-.footer-social-link {
-  width: 42px;
-  height: 42px;
+.contact-cta {
+  width: 48px;
+  height: 48px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -254,16 +255,24 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
   transition: transform .2s ease, border-color .2s ease, background .2s ease;
 }
-.footer-social-link:hover,
-.footer-social-link:focus-visible {
-  transform: translateY(-3px);
+.contact-cta:hover,
+.contact-cta:focus-visible {
+  transform: translateY(-4px);
   border-color: var(--brass);
   background: rgba(255,255,255,.04);
 }
-.footer-social-link img {
-  width: 20px;
-  height: 20px;
+.contact-cta img {
+  width: 22px;
+  height: 22px;
   display: block;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 22px var(--gutter) 30px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  border-top: 1px solid var(--line);
 }
 
 @media (max-width: 780px) {
