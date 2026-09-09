@@ -21,6 +21,13 @@ const PROJECTS = [
     image: "assets/img/harmonya logo.jpg",
   },
   {
+    title: "Logo Conception",
+    category: "Brand Logo",
+    description: "Selected logo designs created for real-world brands. Each project involved research, sketching, and iterative refinement to deliver a distinctive, memorable mark.",
+    tags: ["Logo", "Branding", "Illustrator"],
+    image: "assets/img/Brand Logo.jpg",
+  },
+  {
     title: "Excellia Properties — Company Profile",
     category: "Print & layout",
     description: "Institutional brochure: structuring of content, layout and declination of the charter on several supports.",
